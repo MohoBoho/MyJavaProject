@@ -48,6 +48,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'MD-JavaAppFromGitHub'
-          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_65D49B81E24343B99F01A8B41A10E847 }}
           package: '*.war'
