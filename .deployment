@@ -1,2 +1,2 @@
 [config]
-command = myDeployScript.cmd
+command = xcopy %DEPLOYMENT_TARGET% C:\home\site\wwwroot\ /E /H /C /I
